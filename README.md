@@ -73,6 +73,7 @@ TS_PORT=10022
 TS_USER=serveradmin
 TS_PASS=supersecretpassword
 ```
+(TS_PASS = query admin-password)
 adjust it to your data.
 
 The backend is now fully setup.
