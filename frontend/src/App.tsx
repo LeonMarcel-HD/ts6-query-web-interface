@@ -37,7 +37,7 @@ const socket: Socket<ServerToClientEvents, ClientToServerEvents> = io(
   { transports: ["websocket"] }
 );
 
-const tsLink = "https://tmspk.gg/vI5j1FxE"; // replace with your ts link
+const tsLink = "https://tmspk.gg/s/127.0.0.1"; // replace with your ts link
 
 function App() {
   const [clients, setClients] = useState<TSClient[]>([]);
